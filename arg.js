@@ -20,8 +20,6 @@ if(isNaN(miktar) || miktar.length == 0){
   process.exit(1)
 }
 
-
-
 title(`Telefon: ${telefon} - Miktar: ${miktar}`);
 
 console.log('SMS Gonderiliyor...'.rainbow);
